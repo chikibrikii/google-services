@@ -10,7 +10,7 @@ except ImportError:
     import json
 
     
-API_KEY = r'YCHh31bx0TLmQ8jUz9cevk6sZZSAe7HW'
+API_KEY = r''
 BASE_URL = r'https://www.procyclingstats.com/api/api.php'
 CODE = r'ddd-all-riders-api' 
 LIMIT = 100
@@ -69,4 +69,3 @@ for i in OFFSET:
         pass
 
 dataframe.to_csv('pcs_2.csv', na_rep = 'None', encoding='utf-8-sig', index = False)
-
